@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Html Form </title>
+</head>
+<body>
+    <form action="" oninput="c.value = parseInt(a.value) + parseInt(b.value)">
+        <input type="text" name="Name" id="name" placeholder="Enter your name">
+        <input type="button" name="Submit" value="Submit">
+        <br>
+        <input type="number" name="rollNo" id="rollno" placeholder="Enter your rollNum">
+        <input type="checkbox" name="check" id="Checkbox">
+        <label for="Checkbox"> Are You under age of 18?</label>
+        <br>
+
+        <input type="radio" name="Car" id="BMW">
+        <label for="BMW">BMW</label>
+        <br>
+        <input type="radio" name="Car" id="Ferrari">
+        <label for="Car">Ferrari</label>
+        <br>
+        <input type="radio" name="Car" id="Audi">
+        <label for="Car">Audi</label>
+
+        <br>
+        <select name="Places" id="places">
+            <option value="Varanasi" selected>Varanasi</option>
+            <option value="KedarNath">KedarNath</option>
+            <option value="Mathura">Mathura</option>
+            <option value="Amaranath">Amaranath</option> 
+        </select>
+        <br>
+        <br>
+        <textarea name="Enter about yourself" id="myself" cols="30" rows="10" placeholder="Enter about yourself"></textarea>
+        
+        <br>
+        a = <input type="number" name="a" id="a" placeholder="Enter value of a">
+       + b = <input type="number" name="b" id="b" placeholder="Enter value of b">
+
+        <output name="x" id="x" for="a b"></output>
+
+    </form>
+</body>
+</html>
+<br>
+
+<fieldset>
+    <legend>Enter Name</legend>
+    <label for="text">First Name</label>
+    <input type="text" name="Name" id="firstName">
+    <br><br>
+    <label for="text">Middle Name</label>
+    <input type="text" name="Name" id="midName">
+    <br><br>
+    <label for="text">Last Name</label>
+    <input type="text" name="Name" id="lastName">
+</fieldset>
+
+<br>
+<input list="Country" type="text" name="CountryName" id="countryName" placeholder="Your Country Name">
+
+<datalist id="Country">
+    <option value="India">India</option>
+    <option value="Japan">Japan</option>
+    <option value="America">America</option>
+    <option value="Russia">Russia</option>
+</datalist>

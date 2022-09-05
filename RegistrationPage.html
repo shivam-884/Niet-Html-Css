@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body style="background-color: rgb(246 242 227);">
+    <h3>Student Registration Form</h3>
+
+
+    <form action="">
+        <label for="name">Enter Your Name :</label>
+        <input type="text" name="firstName" id="name" placeholder="First Name">
+        <input type="text" name="midName" id="name" placeholder="Mid Name">
+        <input type="text" name="lastName" id="name" placeholder="Last Name">
+        <br><br>
+        <label for="Gender">Gender :</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="Gender">Male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="Gender">Female</label>
+        <br><br>
+        Admission Number : <input type="text" name="admissionNumber" id="admissionNumber" placeholder="Enter Your Admission Num">
+        <br><br>
+        Roll Number : <input type="number" name="rollNumber" id="rollNumber" placeholder="Enter Your Roll Number">
+        <br><br>
+        Email : <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        <br><br>
+        <label for="mobileNo">Mobile No :</label>
+        <input type="tel" name="mobileNo" id="mobileNo" placeholder="Enter Your Mobile No">
+        <br><br>
+        <label for="Courses">Courses :</label>
+        <select name="Courses" id="courses">
+            <option value="B.Tech" selected>B.Tech</option>
+            <option value="B.Tech">B.Pharma</option>
+            <option value="B.Tech">MBA</option>
+        </select>
+        <br><br>
+        <label for="Branches">Branch :</label>
+        <select name="Branches" id="branches">
+            <option value="CSE"selected>Computer Science And Engineering</option>
+            <option value="IT">Information Technology</option>
+            <option value="CSE">Electronic Communication Engineering</option>
+        </select>
+        <br><br>
+        <label for="year">Year :</label>
+        <select name="year" id="year">
+            <option value="1">1st year</option>
+            <option value="2">2nd year</option>
+            <option value="3" selected>3rd year</option>
+            <option value="4">4th year</option>
+        </select>
+        <br><br>
+        <label for="Section">Section :</label>
+       <select name="Section" id="section">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D" selected>D</option>
+        </select>
+        <br><br>
+        <label for="courseApplied">Course Applied :</label> 
+        <select name="courseApplied" id="courseApplied">
+            <option value="Full Stack Development" selected>Full Stack Development</option>
+            <option value="Artificial Intelligence">Artificial Intelligence</option>
+            <option value="Cloud Computing">Cloud Computing</option>
+            <option value="CRM">CRM</option>
+        </select>
+        <br><br>
+        <label for="skill">Skills :</label>
+        <select name="skill" id="skill">
+            <option value="goodCommunicationSkill">Good Communication</option>
+            <option value="dsaSkill" selected>Data Structure</option>
+            <option value="webSkill">Web Technologies</option>
+        </select>
+        <br><br>
+        <label for="allSetFilled">All the details filled are correct?</label>
+        <input type="checkbox" name="allSetFilled" id="allSetFilled">
+        <br><br>
+        <input type="button" name="cancel" id="cancel" value="Cancel">
+        <input type="button" name="submit" id="submit" value="Submit">
+    </form>
+   
+</body>
+</html>
