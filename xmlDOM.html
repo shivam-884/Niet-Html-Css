@@ -24,4 +24,13 @@
 
     document.getElementById('heading').innerHTML =
     xmlDom.getElementsByTagName('name')[0].childNodes[0].nodeValue;
+
+    var x = xmlDom.documentElement.childNodes;
+    var text = "";
+
+    for(var i=0; i<x.length; i++){
+        if(x[i].nodeType == 1){
+            text = text + x[i].nodeName + "<br>";
+        }
+    }
 </script>

@@ -1,0 +1,24 @@
+
+        p{
+            color: red;
+            background-color: yellow;
+        }
+        button{
+            color: rgb(219, 218, 230);
+            background-color: black;
+        }
+        .p1{
+            color: white;
+            background-color: black;
+        }
+        button:hover{
+            background-color: red;
+        }
+        div{
+            transition: box-shadow 1s ease-in-out, background-color 1sec;
+        }
+
+        box-shadow: x y color;
+        x- horizontal position of shadow
+        y- vertical position of shadow
+        color = can use color model -rbg, rgba,hex
